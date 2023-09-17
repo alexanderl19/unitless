@@ -1,7 +1,15 @@
 {
   "name": "unitless",
-  "module": "index.ts",
+  "version": "1.0.0",
+  "description": "List of CSS properties which accept numbers but are not a unit of distance",
+  "license": "MIT",
+  "author": "Alexander Liu <a@alexanderliu.com>",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/alexanderl19/unitless"
+  },
   "type": "module",
+  "main": "dist/index.js",
   "scripts": {
     "build": "tsup"
   },
@@ -9,5 +17,12 @@
     "bun-types": "latest",
     "tsup": "^7.2.0",
     "typescript": "^5.0.0"
-  }
+  },
+  "keywords": [
+    "css",
+    "react",
+    "unitless",
+    "unitless css property",
+    "unitless property"
+  ]
 }
