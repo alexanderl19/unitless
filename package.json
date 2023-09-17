@@ -9,10 +9,17 @@
     "url": "https://github.com/alexanderl19/unitless"
   },
   "type": "module",
+  "exports": {
+    "types": "./dist/index.d.ts",
+    "import": "./dist/index.mjs",
+    "require": "./dist/index.js"
+  },
   "main": "dist/index.js",
+  "module": "dist/index.mjs",
   "scripts": {
     "build": "tsup"
   },
+  "types": "dist/index.d.ts",
   "devDependencies": {
     "bun-types": "latest",
     "tsup": "^7.2.0",
