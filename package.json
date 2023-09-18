@@ -1,6 +1,6 @@
 {
   "name": "unitless",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "List of CSS properties which accept numbers but are not a unit of distance",
   "license": "MIT",
   "author": "Alexander Liu <a@alexanderliu.com>",
